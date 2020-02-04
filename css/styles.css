@@ -181,19 +181,19 @@ p {
   margin-right: 8px;
 }
 
-.action__heart::before {
+.action__button--heart::before {
   content: url('../images/new-collection/icons/button-heart.png');
 }
 
-.action__line::before {
+.action__button--line::before {
   content: url('../images/new-collection/icons/button-line.png');
 }
 
-.action__clock::before {
+.action__button--clock::before {
   content: url('../images/new-collection/icons/button-clock.png');
 }
 
-.action__basket {
+.action__button--basket {
   width: 166px;
   background-image: url('../images/new-collection/icons/add-to-cart.png');
 }
@@ -414,7 +414,7 @@ p {
   margin-right: 0px;
 }
 
-.about-setting::before {
+.about__item--setting::before {
   content: url('../images/about-png/setting.png');
   display: block;
   width: 66px;
@@ -424,7 +424,7 @@ p {
   margin-right: auto;
 }
 
-.about-money::before {
+.about__item--money::before {
   content: url('../images/about-png/bank.png');
   display: block;
   width: 58px;
@@ -434,7 +434,7 @@ p {
   margin-right: auto;
 }
 
-.about-map::before {
+.about__item--map::before {
   content: url('../images/about-png/map.png');
   display: block;
   width: 58px;
@@ -444,7 +444,7 @@ p {
   margin-right: auto;
 }
 
-.about-compas::before {
+.about__item--compas::before {
   content: url('../images/about-png/compas.png');
   display: block;
   width: 56px;
